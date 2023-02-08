@@ -4,9 +4,11 @@ const content = document.getElementById("content");
 
 function setDirection({target}) {
   for (const btn of buttons) {
-      btn.removeAttribute("class","active")
+    btn.removeAttribute("style")
     if (btn === target) {
-      btn.setAttribute("class","active")
+      btn.style.background = "#4fc2f7"
+      btn.style.color = "white"
+      btn.style.transition = ".2s ease-in-out"
     }
   }
   if (target.dataset.direction === "column" || target.dataset.direction === "column-reverse") {

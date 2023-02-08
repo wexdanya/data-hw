@@ -4,12 +4,6 @@
 *{
     font-family: 'Quicksand', sans-serif;
 }
-.active{
-    background-color: #4fc2f7;
-    color: white;
-
-    transition: .2s ease-in-out;
-}
 #btns>button{
     padding: 1rem 1.5rem;
     border: 3px solid #4fc2f7;
